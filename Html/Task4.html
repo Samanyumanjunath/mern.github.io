@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Profile</title>
+</head>
+<body>
+<h1>User Profile</h1>
+<form action="/save-profile" method="post">
+<div> Name <input type="text" name="fullname" placeholder="Full Name"></div>
+<div>Username<input type="text" name="username" placeholder="Username"></div>
+<div>Password<input type="password" name="password" placeholder="Password"></div>
+<div>re Password<input type="password" name="repassword" placeholder="Re-enter Password"></div>
+<div>address<input type="text" name="address" placeholder="Address"></div>
+<div>Age<input type="number" name="age" placeholder="Age"></div>
+<div>gender<select name="gender">
+<option value="male">Male</option>
+<option value="female">Female</option>
+</select></div>
+<div><input type="submit" value="Save"></div>
+</form>
+</body>
+</html>
